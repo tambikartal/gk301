@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.merve.gk301.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fotografvideo"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@color/kirmizi"
+            android:layout_height="@dimen/buton_yüksekligi"
+            android:text="Fotograf Video"
+            android:onClick="fotovideocek"/>
+
+        <Button
+            android:id="@+id/seskayit"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="@dimen/buton_yüksekligi"
+            android:background="@color/mavi"
+            android:text="Ses Kayıt" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/Harita"
+            android:text="Haritaya Git"
+            android:background="@color/mor"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="@dimen/buton_yüksekligi"
+            android:onClick="haritaya_git"/>
+        <Button
+            android:id="@+id/Web"
+            android:text="Web Sayfasına Git"
+            android:background="@color/sari"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="@dimen/buton_yüksekligi"
+            android:onClick="webac"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/sms"
+            android:text="Sms Gönder"
+            android:background="@color/yesil"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:onClick="smsGonder"
+
+            android:layout_height="@dimen/buton_yüksekligi"
+            />
+        <Button
+            android:id="@+id/arama"
+            android:text="Arama Yap"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@color/turuncu"
+            android:layout_height="@dimen/buton_yüksekligi" />
+
+    </LinearLayout>
+
+</LinearLayout>

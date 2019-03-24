@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">gk301</string>
+    <string name="fotograf">Fotoğraf Video</string>
+    <string name="SesKayıt">Ses Kayıt</string>
+    <string name="Harita">Haritaya Git</string>
+    <string name="Web">Web Sayfasına Git</string>
+    <string name="sms">Sms Gönder</string>
+    <string name="arama">Arama Yap</string>
+
+</resources>
